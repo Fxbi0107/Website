@@ -1,0 +1,45 @@
+:root {
+  --base-color:#2f4f4f;
+  --text-color:#c7dcd8;
+  --untertitel-color:#918f80;
+}
+body {
+  background-color: var(--base-color);
+}
+h1 {
+  color: var(--text-color);
+  text-align: center;
+}
+.untertitel {
+  color: var(--untertitel-color);
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+p {
+  color: var(--text-color);
+}
+.bild {
+  border-radius: 30px;
+}
+
+.informationen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.informationen>div, .informationen>a {
+  margin: 8px;
+}
+
+h3 {
+  color: darkgrey;
+}
+.timeline {
+  display: flex;
+  gap: 20px;
+}
+.uberschrift {
+  font-size: 20px;
+}
