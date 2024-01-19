@@ -29,7 +29,7 @@ p {
   align-items: center;
 }
 
-.informationen>div, .informationen>a {
+.informationen>* {
   margin: 8px;
 }
 
